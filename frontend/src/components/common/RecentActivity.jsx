@@ -1,5 +1,3 @@
-import React from 'react';
-
 const RecentActivity = () => (
   <div className="bg-white p-6 rounded-2xl shadow">
     <h3 className="font-semibold text-lg mb-4">Recent Activity</h3>

@@ -1,8 +1,7 @@
-import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, Users, Clock, Calendar, DollarSign, Award, Settings } from 'lucide-react';
+import { Home, Users, Clock, Calendar, DollarSign, Award } from 'lucide-react';
 
-const Sidebar = ({ isOpen, toggle }) => {
+const Sidebar = ({ isOpen }) => {
   const location = useLocation();
 
   const navItems = [
